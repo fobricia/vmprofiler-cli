@@ -1,4 +1,3 @@
-[submodule "dependancies/vmprofiler"]
-	path = dependancies/vmprofiler
+[submodule "dependencies/vmprofiler"]
+	path = dependencies/vmprofiler
 	url = https://githacks.org/vmp2/vmprofiler.git
-	branch = master

@@ -115,14 +115,6 @@
     <ClInclude Include="dependancies\vmprofiler\include\Zydis\Utils.h" />
     <ClInclude Include="dependancies\vmprofiler\include\Zydis\Zydis.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\dependancies\vmprofiler\dependancies\zydis\msvc\zydis\Zydis.vcxproj">
-      <Project>{88a23124-5640-35a0-b890-311d7a67a7d2}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\dependancies\vmprofiler\src\vmprofiler.vcxproj">
-      <Project>{d0b6092a-9944-4f24-9486-4b7dae372619}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
